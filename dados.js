@@ -1,29 +1,37 @@
 const prova = {
-  data: "Outubro/2025",
+  data: "Novembro/2025",
   docente: "Pablo Henrique Lima dos Santos",
   curso: "Técnico em Desenvolvimento de Sistemas",
-  unidade: "Teste de Sistemas",
+  unidade: "Lógica de Programação em JavaScript",
   turma: "T DESI 2025",
-  titulo: "Avaliação Participativa - Teste de Sistemas",
+  titulo: "Estratégia de Ensino Desafiadora - Lógica de Programação",
   descricao:
-    "Durante o período de aula, os técnicos participaram ativamente de diversas atividades práticas e teóricas, envolvendo testes manuais, testes de usabilidade, dinâmicas interativas como Kahoots e análises críticas. " +
-    "Além disso, foi exigida a entrega de trabalhos e relatórios no Ambiente Virtual de Aprendizagem (AVA), assegurando que o conhecimento foi aplicado e refletido constantemente. " +
-    "Essa metodologia visa desenvolver habilidades técnicas e comportamentais essenciais para a área de teste de sistemas, alinhando teoria e prática em um contexto industrial real. " +
-    "O acompanhamento contínuo das atividades permitiu uma avaliação formativa, valorizando a participação e o comprometimento dos técnicos ao longo da unidade. " +
-    "Este documento formaliza a avaliação participativa, evidenciando a importância da aplicação dos conteúdos em situações reais de teste de software.",
+    "Esta atividade propõe a elaboração e aplicação de uma estratégia de ensino desafiadora voltada à Unidade Curricular de Lógica de Programação em JavaScript. " +
+    "A proposta segue os princípios da Metodologia SENAI de Educação Profissional, estimulando a contextualização prática, o pensamento crítico e a mobilização de competências técnicas e comportamentais. " +
+    "O desafio apresentado simula uma demanda real do setor de tecnologia, incentivando o aluno a desenvolver soluções criativas por meio da lógica e do raciocínio computacional.",
   itens: [
     {
       capacidade:
-        "Identificar tipos, função, ferramentas e plano de teste de acordo com a programação de sistemas.",
+        "Aplicar raciocínio lógico e estruturas fundamentais de programação para resolver problemas computacionais com JavaScript.",
       contexto:
-        "Em um cenário industrial, a garantia da qualidade de sistemas de software é fundamental para evitar falhas que possam impactar processos produtivos, segurança e experiência do usuário. " +
-        "Para tanto, é necessário que os profissionais dominem os conceitos de diferentes tipos de teste, suas funções e as ferramentas que auxiliam na execução desses testes, assim como o planejamento adequado das rotinas. " +
-        "Durante as aulas, foram aplicados exercícios práticos, incluindo testes manuais, avaliações de usabilidade e quizzes interativos que reforçaram esses conceitos. " +
-        "O acompanhamento das entregas no AVA assegurou que o aprendizado foi consolidado e que os técnicos conseguiram aplicar os conhecimentos adquiridos de forma crítica e eficaz. " +
-        "Esse processo de ensino-aprendizagem contribui diretamente para a formação técnica e profissional dos técnicos, preparando-os para desafios reais na indústria de software.",
+        "O setor de tecnologia da informação tem buscado soluções digitais que melhorem processos e otimizem o trabalho de micro e pequenas empresas. " +
+        "Uma startup local está desenvolvendo um sistema simples de controle de estoque para pequenos comércios e precisa de um protótipo funcional para gerenciar produtos de forma prática e automatizada. " +
+        "Os alunos, atuando como desenvolvedores juniores, deverão propor uma solução lógica e programável que atenda à necessidade apresentada, utilizando os conceitos aprendidos na unidade curricular de Lógica de Programação em JavaScript.",
       pergunta: `
-Esta avaliação formaliza o desempenho participativo do técnico nas atividades de Teste de Sistemas, englobando testes manuais, testes de usabilidade, dinâmicas interativas e entregas no AVA.<br><br>
-Critérios de Avaliação:<br>
+<b>Desafio Proposto:</b><br>
+Crie um programa em JavaScript que realize o controle de um pequeno estoque, contendo as seguintes funcionalidades:<br><br>
+<ul>
+  <li>Cadastrar produtos com nome, quantidade e preço;</li>
+  <li>Atualizar informações de um produto existente;</li>
+  <li>Remover produtos do estoque;</li>
+  <li>Exibir a lista completa de produtos no console;</li>
+  <li>Calcular o valor total em estoque com base na quantidade e no preço dos produtos.</li>
+</ul>
+O programa deve ser executado no console do navegador ou em um ambiente como o VS Code, utilizando apenas estruturas básicas da linguagem (variáveis, arrays, objetos, funções, laços e condicionais).<br><br>
+<b>Objetivo:</b><br>
+Desenvolver a capacidade de raciocínio lógico e resolução de problemas, aplicando conceitos fundamentais da programação estruturada em JavaScript, de forma contextualizada e próxima da realidade profissional.<br><br>
+
+<b>Critérios de Avaliação:</b><br>
 <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr style="background-color:#f2f2f2;">
@@ -37,43 +45,33 @@ Critérios de Avaliação:<br>
   </thead>
   <tbody>
     <tr>
-      <td>1. Entrega das atividades práticas no AVA</td>
-      <td>Organizar o ambiente para o desenvolvimento das rotinas de testes</td>
+      <td>1. Contextualização e relevância do desafio</td>
+      <td>Relacionar a atividade com uma situação real do setor de tecnologia</td>
       <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>2. Participação ativa nas discussões em sala</td>
-      <td>Analisar documentação de teste para planejamento da rotina</td>
+      <td>2. Aplicação dos conceitos de lógica</td>
+      <td>Utilizar corretamente variáveis, funções, estruturas de decisão e repetição</td>
       <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>3. Aplicação dos conceitos em testes manuais</td>
-      <td>Identificar tipos, função, ferramentas e plano de teste de acordo com a programação de sistemas</td>
+      <td>3. Criatividade na solução</td>
+      <td>Propor soluções originais e funcionais para o problema apresentado</td>
       <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>4. Engajamento nas dinâmicas interativas (Kahoots)</td>
-      <td>Reconhecer normas, métodos e técnicas de testes para correção de falhas de sistema</td>
+      <td>4. Funcionamento do código</td>
+      <td>Executar corretamente as operações solicitadas sem erros lógicos</td>
       <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>5. Qualidade e pontualidade das entregas</td>
-      <td>Definir roteiro de teste para execução, conforme recomendações técnicas</td>
+      <td>5. Clareza e organização do código</td>
+      <td>Escrever código legível, bem estruturado e comentado</td>
       <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>6. Uso correto dos códigos de testes</td>
-      <td>Identificar problemas de sistemas por meio de aplicação de teste</td>
-      <td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>7. Compreensão dos processos de teste</td>
-      <td>Avaliar resultado obtido no teste</td>
-      <td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>8. Capacidade de documentação dos resultados</td>
-      <td>Empregar ferramenta de documentação de teste para registro do resultado obtido</td>
+      <td>6. Participação e envolvimento</td>
+      <td>Demonstrar engajamento na realização do desafio e nas discussões em sala</td>
       <td></td><td></td><td></td><td></td>
     </tr>
   </tbody>
