@@ -8,7 +8,7 @@ const prova = {
   descricao:
     "Esta atividade propõe a elaboração e aplicação de uma estratégia de ensino desafiadora voltada à Unidade Curricular de Lógica de Programação em JavaScript. " +
     "A proposta segue os princípios da Metodologia SENAI de Educação Profissional, estimulando a contextualização prática, o pensamento crítico e a mobilização de competências técnicas e comportamentais. " +
-    "O desafio apresentado simula uma demanda real do setor de tecnologia, incentivando o aluno a desenvolver soluções criativas por meio da lógica e do raciocínio computacional.",
+    "O desafio apresentado simula uma demanda real do setor de tecnologia, incentivando o técnico a desenvolver soluções criativas por meio da lógica e do raciocínio computacional.",
   itens: [
     {
       capacidade:
@@ -16,7 +16,7 @@ const prova = {
       contexto:
         "O setor de tecnologia da informação tem buscado soluções digitais que melhorem processos e otimizem o trabalho de micro e pequenas empresas. " +
         "Uma startup local está desenvolvendo um sistema simples de controle de estoque para pequenos comércios e precisa de um protótipo funcional para gerenciar produtos de forma prática e automatizada. " +
-        "Os alunos, atuando como desenvolvedores juniores, deverão propor uma solução lógica e programável que atenda à necessidade apresentada, utilizando os conceitos aprendidos na unidade curricular de Lógica de Programação em JavaScript.",
+        "Os técnicos, atuando como desenvolvedores juniores, deverão propor uma solução lógica e programável que atenda à necessidade apresentada, utilizando os conceitos aprendidos na unidade curricular de Lógica de Programação em JavaScript.",
       pergunta: `
 <b>Desafio Proposto:</b><br>
 Crie um programa em JavaScript que realize o controle de um pequeno estoque, contendo as seguintes funcionalidades:<br><br>
@@ -81,3 +81,4 @@ Desenvolver a capacidade de raciocínio lógico e resolução de problemas, apli
     },
   ],
 };
+
