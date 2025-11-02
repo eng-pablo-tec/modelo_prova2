@@ -12,7 +12,7 @@ const prova = {
   itens: [
     {
       capacidade:
-        "Aplicar raciocínio lógico e estruturas fundamentais de programação para resolver problemas computacionais com JavaScript.",
+        "Utilizar as estruturas de controle e repetição adequadas à lógica dos algoritmos.",
       contexto:
         "O setor de tecnologia da informação tem buscado soluções digitais que melhorem processos e otimizem o trabalho de micro e pequenas empresas. " +
         "Uma startup local está desenvolvendo um sistema simples de controle de estoque para pequenos comércios e precisa de um protótipo funcional para gerenciar produtos de forma prática e automatizada. " +
@@ -81,4 +81,5 @@ Desenvolver a capacidade de raciocínio lógico e resolução de problemas, apli
     },
   ],
 };
+
 
