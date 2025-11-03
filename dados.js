@@ -1,37 +1,26 @@
 const prova = {
   data: "Novembro/2025",
   docente: "Pablo Henrique Lima dos Santos",
-  curso: "Técnico em Desenvolvimento de Sistemas",
-  unidade: "Lógica de Programação em JavaScript",
-  turma: "T DESI 2025",
-  titulo: "Estratégia de Ensino Desafiadora - Lógica de Programação",
+  curso: "Técnico em Informática para Internet",
+  unidade: "Engenharia de Software – Levantamento de Requisitos",
+  turma: "T TIIN 2025/2",
+  titulo: "Avaliação Participativa - Modelagem e Análise de Requisitos",
   descricao:
-    "Esta atividade propõe a elaboração e aplicação de uma estratégia de ensino desafiadora voltada à Unidade Curricular de Lógica de Programação em JavaScript. " +
-    "A proposta segue os princípios da Metodologia SENAI de Educação Profissional, estimulando a contextualização prática, o pensamento crítico e a mobilização de competências técnicas e comportamentais. " +
-    "O desafio apresentado simula uma demanda real do setor de tecnologia, incentivando o técnico a desenvolver soluções criativas por meio da lógica e do raciocínio computacional.",
+    "Durante a aula prática, os técnicos participaram de atividades de levantamento e análise de requisitos, simulando o papel de clientes e analistas. " +
+    "O exercício envolveu discussão de necessidades de um sistema real, geração de ideias e prototipagem inicial. " +
+    "Essa metodologia visa desenvolver habilidades de comunicação, análise crítica e modelagem de requisitos, essenciais na Engenharia de Software. " +
+    "O acompanhamento das atividades permitiu avaliar a capacidade dos técnicos de aplicar conceitos teóricos em situações práticas, fortalecendo a integração entre teoria e prática. " +
+    "Este documento formaliza a avaliação participativa, evidenciando a importância da aplicação dos conteúdos em situações reais de análise de requisitos.",
   itens: [
     {
       capacidade:
-        "Utilizar as estruturas de controle e repetição adequadas à lógica dos algoritmos.",
+        "Levantar, analisar e modelar requisitos funcionais e não funcionais para sistemas de software.",
       contexto:
-        "O setor de tecnologia da informação tem buscado soluções digitais que melhorem processos e otimizem o trabalho de micro e pequenas empresas. " +
-        "Uma startup local está desenvolvendo um sistema simples de controle de estoque para pequenos comércios e precisa de um protótipo funcional para gerenciar produtos de forma prática e automatizada. " +
-        "Os técnicos, atuando como desenvolvedores juniores, deverão propor uma solução lógica e programável que atenda à necessidade apresentada, utilizando os conceitos aprendidos na unidade curricular de Lógica de Programação em JavaScript.",
+        "No mercado de desenvolvimento de software, a correta identificação de requisitos é fundamental para garantir que os sistemas atendam às necessidades dos usuários e da empresa. " +
+        "Durante a prática, os técnicos se dividiram em grupos simulando clientes e analistas, discutindo o desenvolvimento de um sistema para otimizar a produção de uma empresa, criando ideias e protótipos iniciais.",
       pergunta: `
-<b>Desafio Proposto:</b><br>
-Crie um programa em JavaScript que realize o controle de um pequeno estoque, contendo as seguintes funcionalidades:<br><br>
-<ul>
-  <li>Cadastrar produtos com nome, quantidade e preço;</li>
-  <li>Atualizar informações de um produto existente;</li>
-  <li>Remover produtos do estoque;</li>
-  <li>Exibir a lista completa de produtos no console;</li>
-  <li>Calcular o valor total em estoque com base na quantidade e no preço dos produtos.</li>
-</ul>
-O programa deve ser executado no console do navegador ou em um ambiente como o VS Code, utilizando apenas estruturas básicas da linguagem (variáveis, arrays, objetos, funções, laços e condicionais).<br><br>
-<b>Objetivo:</b><br>
-Desenvolver a capacidade de raciocínio lógico e resolução de problemas, aplicando conceitos fundamentais da programação estruturada em JavaScript, de forma contextualizada e próxima da realidade profissional.<br><br>
-
-<b>Critérios de Avaliação:</b><br>
+Esta avaliação formaliza o desempenho participativo do técnico nas atividades de Modelagem e Análise de Requisitos.<br><br>
+Critérios de Avaliação:<br>
 <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr style="background-color:#f2f2f2;">
@@ -45,33 +34,28 @@ Desenvolver a capacidade de raciocínio lógico e resolução de problemas, apli
   </thead>
   <tbody>
     <tr>
-      <td>1. Contextualização e relevância do desafio</td>
-      <td>Relacionar a atividade com uma situação real do setor de tecnologia</td>
+      <td>1. Participação ativa na divisão de papéis (Clientes vs. Analistas)</td>
+      <td>Compreender a importância dos papéis na coleta de requisitos</td>
       <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>2. Aplicação dos conceitos de lógica</td>
-      <td>Utilizar corretamente variáveis, funções, estruturas de decisão e repetição</td>
+      <td>2. Contribuição na discussão de implementação do sistema</td>
+      <td>Identificar necessidades do usuário e requisitos do sistema</td>
       <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>3. Criatividade na solução</td>
-      <td>Propor soluções originais e funcionais para o problema apresentado</td>
+      <td>3. Geração de ideias e propostas de solução</td>
+      <td>Aplicar técnicas de análise de requisitos e brainstorming</td>
       <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>4. Funcionamento do código</td>
-      <td>Executar corretamente as operações solicitadas sem erros lógicos</td>
+      <td>4. Desenvolvimento de protótipo inicial</td>
+      <td>Representar visualmente os requisitos levantados e facilitar entendimento</td>
       <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>5. Clareza e organização do código</td>
-      <td>Escrever código legível, bem estruturado e comentado</td>
-      <td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>6. Participação e envolvimento</td>
-      <td>Demonstrar engajamento na realização do desafio e nas discussões em sala</td>
+      <td>5. Clareza e organização das ideias apresentadas</td>
+      <td>Comunicar requisitos e soluções de forma objetiva e estruturada</td>
       <td></td><td></td><td></td><td></td>
     </tr>
   </tbody>
@@ -81,5 +65,3 @@ Desenvolver a capacidade de raciocínio lógico e resolução de problemas, apli
     },
   ],
 };
-
-
