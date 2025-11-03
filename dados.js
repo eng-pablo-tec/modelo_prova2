@@ -1,9 +1,9 @@
 const prova = {
   data: "Novembro/2025",
   docente: "Pablo Henrique Lima dos Santos",
-  curso: "Técnico em Informática para Internet",
-  unidade: "Engenharia de Software – Levantamento de Requisitos",
-  turma: "T TIIN 2025/2",
+  curso: "Técnico em Desenvolvimento de Sistemas",
+  unidade: "Modelagem de Sistemas",
+  turma: "T DESI 2025/2",
   titulo: "Avaliação Participativa - Modelagem e Análise de Requisitos",
   descricao:
     "Durante a aula prática, os técnicos participaram de atividades de levantamento e análise de requisitos, simulando o papel de clientes e analistas. " +
@@ -81,3 +81,4 @@ Critérios de Avaliação:<br>
     },
   ],
 };
+
